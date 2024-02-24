@@ -1,0 +1,24 @@
+body{
+    background-image: url("background.jpeg") ;
+ 
+        font-family: 'Borel', cursive;
+    font-family: 'Croissant One', cursive;
+        
+    }
+    
+    @keyframes anicanvas{
+        0%{box-shadow:1px 1px 90px red;}
+        25%{box-shadow: 1px 1px 90px yellow;}
+        50%{box-shadow: 1px 1px 90px blue;}
+        75%{box-shadow: 1px 1px 90px magenta;}
+        100%{box-shadow: 1px 1px 90px pink;}
+
+    
+    }
+    canvas{
+    animation-name:anicanvas;
+    animation-duration: 6s;
+    animation-iteration-count:infinite ;
+    
+    }
+    
